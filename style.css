@@ -127,13 +127,14 @@ h1 {
   }
 
   .btn {
-    font-size: 1rem;
+    font-size: 1.8rem;
     padding: 1rem 1.5rem;
   }
 
   .number {
     font-size: 3rem;
-    width: 7.5rem;
+    width: 8.5rem;
+
     padding: 1.5rem 0rem;
   }
   .left {
@@ -145,17 +146,18 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.7rem;
     align-items: center;
     /* flex-direction: column; */
   }
   .guess {
     border: 2px solid #eee;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     padding: 1.25rem;
-    width: 12.5rem;
+    width: 16rem;
     margin-bottom: 1.5rem;
     display: block;
+    margin-top: 2.5rem;
   }
   .message {
     margin-bottom: 4rem;
@@ -166,8 +168,8 @@ h1 {
   }
   .again {
     top: 7rem;
-    right: 15rem;
-    left: 15rem;
+    right: 13rem;
+    left: 13rem;
   }
   .between {
     top: 0rem;
@@ -175,5 +177,6 @@ h1 {
     text-align: center;
     line-height: 1.5;
     padding: 1rem 5rem;
+    font-size: 1.2rem;
   }
 }
