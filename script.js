@@ -44,7 +44,7 @@ document.querySelector('.check').addEventListener('click', function () {
 // 'Again' reset btn
 document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = '#222';
-  document.querySelector('.number').style.width = '15rem';
+  document.querySelector('.number').style.width = '7.5rem';
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   document.querySelector('.number').textContent = '?';
   score = 20;

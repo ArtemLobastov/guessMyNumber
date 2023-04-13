@@ -165,6 +165,15 @@ h1 {
     height: 32.5rem;
   }
   .again {
-    top: 4rem;
+    top: 7rem;
+    right: 15rem;
+    left: 15rem;
+  }
+  .between {
+    top: 0rem;
+    right: 0rem;
+    text-align: center;
+    line-height: 1.5;
+    padding: 1rem 5rem;
   }
 }
